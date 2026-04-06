@@ -226,10 +226,10 @@ st.markdown("")
 col_b1, col_b2 = st.columns(2)
 with col_b1:
     if st.button("📰 Accéder aux News & Indices", use_container_width=True, type="primary"):
-        st.switch_page("pages/01_📰_News.py")
+        st.switch_page("pages/01_News.py")
 with col_b2:
     if st.button("🧮 Accéder au Module de Pricing", use_container_width=True):
-        st.switch_page("pages/02_🧮_Pricing.py")
+        st.switch_page("pages/02_Pricing.py")
 
 # ── Footer ──
 render_footer()
